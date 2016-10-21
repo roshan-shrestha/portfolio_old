@@ -4,6 +4,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto|Roboto+Condensed');
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -4277,6 +4280,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
+}
+
+
+.roboto-font{
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
