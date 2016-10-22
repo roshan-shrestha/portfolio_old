@@ -4,8 +4,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
-@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto|Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:100');
 
 html {
   font-family: sans-serif;
@@ -4278,13 +4277,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: left;
   height: 50px;
   padding: 15px 15px;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 20px;
 }
 
 
-.roboto-font{
-  font-family: 'Roboto Condensed', sans-serif;
+.font-body{
+  font-family: 'Open Sans', sans-serif;
+}
+.font-header{
+  font-family: 'Roboto', sans-serif;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -4317,7 +4319,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-toggle .icon-bar {
   display: block;
   width: 22px;
-  height: 2px;
+  height: .75px;
   border-radius: 1px;
 }
 .navbar-toggle .icon-bar + .icon-bar {
