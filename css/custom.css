@@ -22,6 +22,8 @@
       color: white;
       text-align: center;
       padding-top: 35vh;
+      padding-left: 8vh;
+      padding-right: 8vh;
     }
 }
 
@@ -39,8 +41,9 @@
 
 /* Portrait tablets and small desktops */
 @media(min-width:768px){
-    .font-intro{
-      font-size: 75pt;
+    .font-intro {
+      /*font-family: 'Lato', sans-serif;*/
+      font-size: 48pt;
       color: white;
       text-align: center;
       padding-top: 35vh;
@@ -52,12 +55,12 @@
 /* Landscape phones and portrait tablets */
 @media(max-width:767px){
     .font-intro{
-      font-size: 18pt;
+      font-size: 38pt;
       color: white;
       text-align: center;
       padding-top: 35vh;
-      padding-left: 8vh;
-      padding-right: 8vh;
+      padding-left: 3vh;
+      padding-right: 3vh;
     }
 }
 
