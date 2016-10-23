@@ -4,7 +4,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:100');
 
 html {
   font-family: sans-serif;
@@ -4279,6 +4278,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 15px 15px;
   font-size: 19px;
   line-height: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -4987,8 +4987,8 @@ a.badge:focus {
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .container .jumbotron,
   .container-fluid .jumbotron {

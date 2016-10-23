@@ -1,30 +1,78 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:100|Lato:100');
 
-.font-body{
-  font-family: 'Open Sans', sans-serif;
-}
-
-.font-header{
-  font-family: 'Roboto', sans-serif;
-  font-size: 45pt;
-  color: white;
-}
-
-.font-intro{
-  font-family: 'Lato', sans-serif;
-  font-size: 67pt;
-  color: white;
-  text-align: center;
-  padding-top: 35vh;
-}
-
 .parallax {
     height: 100vh;
-    background-image: url(../images/wood.jpg);
+    background-image: url(../img/wood.jpg);
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Large desktops and laptops */
+@media(min-width:1200px){
+    .font-intro{
+      font-size: 75pt;
+      color: white;
+      text-align: center;
+      padding-top: 35vh;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+@media(min-width:992px){
+    .font-intro{
+      font-size: 100pt;
+      color: white;
+      text-align: center;
+      padding-top: 35vh;
+      padding-left: 8vh;
+      padding-right: 8vh;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media(min-width:768px){
+    .font-intro{
+      font-size: 75pt;
+      color: white;
+      text-align: center;
+      padding-top: 35vh;
+      padding-left: 8vh;
+      padding-right: 8vh;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media(max-width:767px){
+    .font-intro{
+      font-size: 18pt;
+      color: white;
+      text-align: center;
+      padding-top: 35vh;
+      padding-left: 8vh;
+      padding-right: 8vh;
+    }
+}
+
+/*.font-header{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 45pt;
+  color: white;
+}*/
+
+.custom-navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 19px;
+  line-height: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
 }
