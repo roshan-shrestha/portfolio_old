@@ -11,12 +11,11 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.home-par {
+.parallax {
     /* The image used */
-    background-image: ("wood.jpg");
-
+    background-image: url(../images/wood.jpg);
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 1000px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
