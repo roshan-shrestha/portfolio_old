@@ -21,7 +21,7 @@
       font-size: 75pt;
       color: white;
       text-align: center;
-      padding-top: 35vh;
+      padding-top: 37vh;
       padding-left: 8vh;
       padding-right: 8vh;
     }
@@ -33,7 +33,7 @@
       font-size: 100pt;
       color: white;
       text-align: center;
-      padding-top: 35vh;
+      padding-top: 37vh;
       padding-left: 8vh;
       padding-right: 8vh;
     }
@@ -42,11 +42,10 @@
 /* Portrait tablets and small desktops */
 @media(min-width:768px){
     .font-intro {
-      /*font-family: 'Lato', sans-serif;*/
       font-size: 48pt;
       color: white;
       text-align: center;
-      padding-top: 35vh;
+      padding-top: 37vh;
       padding-left: 8vh;
       padding-right: 8vh;
     }
@@ -58,7 +57,7 @@
       font-size: 38pt;
       color: white;
       text-align: center;
-      padding-top: 35vh;
+      padding-top: 37vh;
       padding-left: 3vh;
       padding-right: 3vh;
     }
