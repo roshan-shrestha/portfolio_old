@@ -1,0 +1,26 @@
+.testing {
+	font-size: 111px;
+	color: #224;
+}
+
+.font-body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.font-header{
+  font-family: 'Roboto', sans-serif;
+}
+
+.home-par {
+    /* The image used */
+    background-image: ("wood.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
