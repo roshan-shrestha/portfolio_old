@@ -54,7 +54,7 @@
 /* Landscape phones and portrait tablets */
 @media(max-width:767px){
     .font-intro{
-      font-size: 38pt;
+      font-size: 34pt;
       color: white;
       text-align: center;
       padding-top: 37vh;
