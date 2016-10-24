@@ -15,6 +15,22 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/*Social icons*/
+.social {
+  font-size: 60px;
+  text-decoration: none;
+  list-style-type: none;
+  color: green; 
+}
+
+.base {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: #eee;
+}
+
 /* Large desktops and laptops */
 @media(min-width:1200px){
     .font-intro{
