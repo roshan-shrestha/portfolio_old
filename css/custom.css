@@ -70,7 +70,7 @@
 /* Landscape phones and portrait tablets */
 @media(max-width:767px){
     .font-intro{
-      font-size: 34pt;
+      font-size: 32pt;
       color: white;
       text-align: center;
       padding-top: 37vh;
