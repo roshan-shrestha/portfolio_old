@@ -34,10 +34,10 @@
 /* Large desktops and laptops */
 @media(min-width:1200px){
     .font-intro{
-      font-size: 75pt;
+      font-size: 75*1pt;
       color: white;
       text-align: center;
-      padding-top: 37vh;
+      padding-top: 40vh;
       padding-left: 8vh;
       padding-right: 8vh;
     }
@@ -46,10 +46,10 @@
 /* Landscape tablets and medium desktops */
 @media(min-width:992px){
     .font-intro{
-      font-size: 100pt;
+      font-size: 75*.75pt;
       color: white;
       text-align: center;
-      padding-top: 37vh;
+      padding-top: 40vh;
       padding-left: 8vh;
       padding-right: 8vh;
     }
@@ -61,7 +61,7 @@
       font-size: 48pt;
       color: white;
       text-align: center;
-      padding-top: 37vh;
+      padding-top: 40vh;
       padding-left: 8vh;
       padding-right: 8vh;
     }
@@ -73,7 +73,7 @@
       font-size: 32pt;
       color: white;
       text-align: center;
-      padding-top: 37vh;
+      padding-top: 40vh;
       padding-left: 3vh;
       padding-right: 3vh;
     }
