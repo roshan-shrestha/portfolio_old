@@ -94,3 +94,8 @@
   font-family: 'Roboto', sans-serif;
   color: white;
 }
+
+.body-text {
+  font-size: 18px;
+  text-align: center;
+}
