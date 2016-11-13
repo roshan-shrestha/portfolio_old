@@ -4279,6 +4279,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-size: 19px;
   line-height: 20px;
   font-family: 'Open Sans', sans-serif;
+  color: white;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
