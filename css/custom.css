@@ -106,12 +106,10 @@
 }
 
 .navbar-transparent {
-  background: transparent;
-  color: white;
-}
-
-.navbar-item {
-  color: white;
+  background:transparent;
+  background-image:none;
+  border-color:transparent;
+  box-shadow:none;
 }
 
 footer {
