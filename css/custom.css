@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:100|Lato:100');
 
 .parallax {
+    /*margin: -10vh;*/
     height: 100vh;
     background-image: url(../img/wood.jpg);
 
@@ -28,7 +29,11 @@
   padding-bottom: 30px;
   margin-bottom: 0px;
   text-align: center;
-  background-color: #eee;
+  background-color: black;
+}
+
+.font-base {
+  color: white;
 }
 
 /* Large desktops and laptops */
@@ -102,4 +107,39 @@
 
 .navbar-transparent {
   background: transparent;
+  color: white;
 }
+
+.navbar-item {
+  color: white;
+}
+
+footer {
+  padding: 20px 0;
+  background-color: black;
+  text-align: center;
+  position: relative;
+  z-index: 15;
+}
+
+.social-links {
+  display: inline-block; }
+  .social-links li {
+    display: inline-block;
+    padding: 0 20px; }
+  .social-links a {
+    display: block;
+    text-indent: -999px;
+    width: 32px;
+    height: 30px;
+    overflow: hidden;
+    background: url("/imgs/svg-icons.svg"); }
+  .social-links .Twitter {
+    background-position: 0px; }
+  .social-links .Dribbble {
+    background-position: -32px; }
+  .social-links .Instagram {
+    background-position: -64px; }
+  .social-links .GitHub {
+    background-position: -96px; }
+

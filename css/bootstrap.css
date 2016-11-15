@@ -3980,11 +3980,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li {
   position: relative;
   display: block;
+
 }
 .nav > li > a {
   position: relative;
   display: block;
   padding: 10px 15px;
+  color : white;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -3992,7 +3994,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #eee;
 }
 .nav > li.disabled > a {
-  color: #777;
+  color: white;
 }
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
@@ -4166,9 +4168,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar {
   position: relative;
-  min-height: 50px;
-  margin-bottom: 20px;
+  /*min-height: 50px;*/
+  /*margin-bottom: 20px;*/
   border: 1px solid transparent;
+  color: transparent;
 }
 @media (min-width: 768px) {
   .navbar {
